@@ -1,8 +1,11 @@
+import java.util.Random;
+
 public class snakeAndLadder
 {
 	public static void main(String[] args)
 	{
-		int position = 0;
-		System.out.println("Welcome to snake & ladder game, we have a single player at position "+position);
+		Random randomObject = new Random();
+		int dice = randomObject.nextInt(6)+1;
+		System.out.println("Dice outcome is: "+dice);
 	}
 }
