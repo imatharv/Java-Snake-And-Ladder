@@ -11,7 +11,7 @@ public class snakeAndLadder
 
 		Random randomObject = new Random();
 
-		while(position<=100)
+		while(position != 100)
 		{
 			int dice = randomObject.nextInt(6)+1; //Returns random numbers between 1-6
         	        System.out.println("Dice outcome is: "+dice);
@@ -21,6 +21,10 @@ public class snakeAndLadder
 				if(play == ladder)
 				{
 					position += dice;
+					if(position>100)
+					{
+						position -= dice;
+					}
 				}
 				else if(play == snake)
 				{
@@ -33,6 +37,6 @@ public class snakeAndLadder
 				System.out.println("New position gained is= "+position);
 			}
 		}
-		System.out.println("Win!!.. The player has reached the 100th position.");
+		System.out.println("Win!!.. The player has reached the exact 100th position.");
 	}
 }
