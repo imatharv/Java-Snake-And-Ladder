@@ -18,13 +18,13 @@ public class snakeAndLadder
 		{
 			if(play==ladder)
 			{
-				pos += dice;
+				position += dice;
 			}
 			else if(play == snake)
 			{
-				pos -= dice;
+				position -= dice;
 			}
-			System.out.println("New position gained is= "+pos);
+			System.out.println("New position gained is= "+position);
 		}
 		else
 		{
