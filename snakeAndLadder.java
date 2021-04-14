@@ -8,6 +8,7 @@ public class snakeAndLadder
 		int snake = 2;
 		int noplay = 0;
 		int position = 0;
+		int diceRoll = 0;
 
 		Random randomObject = new Random();
 
@@ -16,6 +17,8 @@ public class snakeAndLadder
 			int dice = randomObject.nextInt(6)+1; //Returns random numbers between 1-6
         	        System.out.println("Dice outcome is: "+dice);
 	                int play = randomObject.nextInt(3); //Return random numbers between 0-2
+
+			diceRole++;
 
 			if(play != noplay) {
 				if(play == ladder)
@@ -37,6 +40,7 @@ public class snakeAndLadder
 				System.out.println("New position gained is= "+position);
 			}
 		}
-		System.out.println("Win!!.. The player has reached the exact 100th position.");
+		System.out.println("Win!!.. The player has reached the exact 100th position.\n");
+		System.out.println("The dice was rolled "+diceRoll+" number of times.");
 	}
 }
