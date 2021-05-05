@@ -8,7 +8,9 @@ The repository contains a core java program for snake and ladder game using some
  
 <br />
 
-> _Every branch contains step wise code. And the master branch is same as of the last branch._
+``` 
+Every branch contains step wise code. And the master branch is same as of the last branch.
+```
 
 <br />
 
