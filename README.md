@@ -16,12 +16,12 @@ Every branch contains step wise code. And the master branch is same as of the la
 
 ### Branching details,
 
-- [Use Case 1](https://github.com/imatharv/Java-Core-SnakeAndLadder/tree/use-case-1) Snake and ladder game layed with single player with starting position zero 
-- [Use Case 2](https://github.com/imatharv/Java-Core-SnakeAndLadder/tree/use-case-2) The player rolls a dice to get a number beteen one and six
-- [Use Case 3](https://github.com/imatharv/Java-Core-SnakeAndLadder/tree/use-case-3) Player then checks for options which are no-play, ladder and snake
-- [Use Case 4](https://github.com/imatharv/Java-Core-SnakeAndLadder/tree/use-case-4) Repeat till the player reaches the winning 100th position
-- [Use Case 5](https://github.com/imatharv/Java-Core-SnakeAndLadder/tree/use-case-5) Ensure that the player get to the exact winning 100th position
-- [Use Case 6](https://github.com/imatharv/Java-Core-SnakeAndLadder/tree/use-case-6) Report the number of times the dice was played to win the game and also the position after every dice role
+- [Use Case 1](https://github.com/imatharv/Java-Snake-And-Ladder/tree/use-case-1) Snake and ladder game layed with single player with starting position zero 
+- [Use Case 2](https://github.com/imatharv/Java-Snake-And-Ladder/tree/use-case-2) The player rolls a dice to get a number beteen one and six
+- [Use Case 3](https://github.com/imatharv/Java-Snake-And-Ladder/tree/use-case-3) Player then checks for options which are no-play, ladder and snake
+- [Use Case 4](https://github.com/imatharv/Java-Snake-And-Ladder/tree/use-case-4) Repeat till the player reaches the winning 100th position
+- [Use Case 5](https://github.com/imatharv/Java-Snake-And-Ladder/tree/use-case-5) Ensure that the player get to the exact winning 100th position
+- [Use Case 6](https://github.com/imatharv/Java-Snake-And-Ladder/tree/use-case-6) Report the number of times the dice was played to win the game and also the position after every dice role
 
 <br />
 
